@@ -7,12 +7,12 @@ import { ClipboardDocumentCheckIcon, EnvelopeIcon, PhoneIcon } from '@heroicons/
 const contactDetails = [
   {
     label: 'Email',
-    value: 'youremail@example.com',
+    value: 'apoorvavijaypant13@gmail.com',
     icon: <EnvelopeIcon className="w-5 h-5 inline-block mr-2" />,
   },
   {
     label: 'Phone',
-    value: '+1 234 567 8901',
+    value: '+91-9571806365',
     icon: <PhoneIcon className="w-5 h-5 inline-block mr-2" />,
   },
 ];
