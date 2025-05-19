@@ -33,7 +33,7 @@ export default function About() {
   const para2FadeOut = useTransform(scrollYProgress, [0.85, 1], [1, 0]);
 
   return (
-    <section
+    <section id="about"
       ref={ref}
       className="h-[300vh] relative bg-black text-white px-4 sm:px-10"
     >

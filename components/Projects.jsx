@@ -15,7 +15,7 @@ const projects = [
   },
   {
     title: 'Marugarh Website',
-    description: 'A full-stack e-commerce site with cart and payment features.',
+    description: 'A beautiful heritage-themed restaurant website inspired by the royal city of Jodhpur. Made using just basic HTML and CSS, this was an important porject as it helped me land a freelance job in a Digital Marketing enterprise. Fully responsive with a modern parallax hero section and elegant menu layouts.',
     image: '',
     tech: ['React', 'Node.js', 'Stripe'],
     github: 'https://github.com/Apoorva-Pant/marugarh-website',
@@ -23,7 +23,7 @@ const projects = [
   },
   {
     title: 'Weather App',
-    description: 'A minimalist weather forecasting app that fetches and displays real-time weather data for any city using a third-party weather API. Includes temperature, condition icons, and 5-day forecasts.',
+    description: 'A minimalist weather forecasting app that fetches and displays real-time weather data for any city using a third-party weather API. Includes temperature, condition icons, 7-day forecasts, and 3-hour forecast',
     image: '',
     tech: ['React', 'javaScript', 'OpenWeatherMap API', 'CSS'],
     github: 'https://github.com/Apoorva-Pant/weather-app',
@@ -31,7 +31,7 @@ const projects = [
   },
   {
     title: 'QR Menu App',
-    description: 'A responsive restaurant menu web app where users can browse categorized items with filters. Designed for cafe clients, making it easy to update items and prices dynamically.',
+    description: 'A responsive restaurant menu web app where users can browse categorized items with filters and an added cart section. Designed for cafe clients, making it easy to update items and prices dynamically.',
     image: '',
     tech: ['React', 'JavaScript', 'Next.js', 'Css'],
     github: 'https://github.com/Apoorva-Pant/qr-menu-app',
@@ -39,15 +39,15 @@ const projects = [
   },
   {
     title: 'My Old Portfolio',
-    description: 'A real-time chat app using WebSockets.',
+    description: "Designed using simple languages, this was my portfolio when I wasn't fimiliar with technologies like TailwindCSS, Next.js or Framer motion.",
     image: '',
-    tech: ['React', 'Socket.io', 'Express'],
+    tech: ['HTML', 'CSS', 'JavaScript'],
     github: 'https://github.com/Apoorva-Pant/Portfolio',
     live: 'https://apoorva-pant.github.io/Portfolio/',
   },
   {
     title: 'My New Portfolio',
-    description: 'A real-time chat app using WebSockets.',
+    description: 'This is my interactive personal portfolio, a modern web experience built using Next.js 14, React 19, Tailwind CSS, Framer Motion, and DaisyUI. This site showcases my projects, skills, certifications, experience, and contact information — all wrapped in smooth scroll-based animations and responsive design.',
     image: '',
     tech: ['React', 'Socket.io', 'Express'],
     github: '#',
@@ -104,7 +104,7 @@ export default function Projects() {
   }, [inView, scrollYProgress, controls]);
 
   return (
-    <motion.section
+    <motion.section id="projects"
       ref={sectionRef}
       style={{ backgroundColor: bgColor }}
       className="relative w-full min-h-screen py-20 px-6 text-black transition-colors duration-700"

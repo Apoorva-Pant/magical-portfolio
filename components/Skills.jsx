@@ -33,7 +33,7 @@ export default function Skills() {
   }, [skillsTitleControls]);
 
   return (
-    <section className="min-h-[300vh] px-4 sm:px-6 py-24 bg-black text-white relative">
+    <section id="skills" className="min-h-[300vh] px-4 sm:px-6 py-24 bg-black text-white relative">
 
       {/* Main Skills Title */}
       <motion.div

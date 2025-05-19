@@ -16,7 +16,7 @@ export default function AnimatedTitle({ text, isSticky = false }) {
   return (
     <motion.h2
       ref={ref}
-      className={`text-6xl font-extrabold text-center tracking-wide ${
+      className={`text-6xl font-extrabold text-center overflow-hidden tracking-wide ${
         isSticky ? 'sticky top-10 z-30' : ''
       }`}
       initial={{ opacity: 0, y: 100 }}

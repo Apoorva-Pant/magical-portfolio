@@ -10,7 +10,7 @@ import { useInView } from 'react-intersection-observer';
 import Image from 'next/image';
 
 const certifications = [
-  { title: 'HTML & CSS', image: '/certifications/frontend.jpg' },
+  { title: 'HTML & CSS', image: '/certifications/frontend.png' },
   { title: 'Programming With JavaScript', image: '/certifications/Programming With JavaScript.png' },
   { title: 'Version Control', image: '/certifications/version_control.png' },
   { title: 'Advanced React', image: '/certifications/AdvancedReact.png' },
@@ -46,7 +46,7 @@ export default function Certifications() {
   }, [inView, controls]);
 
   return (
-    <section
+    <section id="certifications"
       ref={ref}
       className="relative w-full min-h-screen py-20 px-4 overflow-hidden text-black"
     >

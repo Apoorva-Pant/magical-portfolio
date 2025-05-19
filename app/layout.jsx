@@ -1,6 +1,6 @@
 // app/layout.jsx
-import "./globals.css"; // ✅ now correct
-import Navbar from "../components/Navbar"; // ✅ relative path
+import "./globals.css";
+import Navbar from "../components/Navbar";
 import { Oranienbaum } from 'next/font/google';
 
 const oranienbaum = Oranienbaum({
@@ -12,22 +12,18 @@ const oranienbaum = Oranienbaum({
 export const metadata = {
   title: "My Portfolio",
   description: "Showcasing my work",
-   icons: {
+  icons: {
     icon: "/favicon.ico",
   },
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <head>
-        <link rel="preload" href="/fonts/your-font.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
-      </head>
-      <body className={oranienbaum.className}>
+    <html lang="en" className="scroll-smooth">
+      <body className={`${oranienbaum.className} overflow-x-hidden max-w-screen`}>
         <Navbar />
         {children}
       </body>
     </html>
   );
 }
-

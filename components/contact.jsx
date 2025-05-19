@@ -67,7 +67,7 @@ export default function Contact() {
   const inView = useInView(ref, { once: false, margin: '-10% 0px' });
 
   return (
-    <section
+    <section id="contact"
       ref={ref}
       className="min-h-screen flex flex-col items-center justify-center bg-black text-white px-6 py-20 transition-colors duration-700"
     >
@@ -130,6 +130,27 @@ export default function Contact() {
                 </button>
               ))}
             </motion.div>
+            {/* Download CV */}
+<div className="mb-12">
+  <a
+    href="/resume.pdf"
+    download
+    className="bg-purple-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-purple-700 transition-all duration-300 shadow-md flex items-center justify-center gap-2"
+    aria-label="Download Resume"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      strokeWidth={1.5}
+      stroke="currentColor"
+      className="w-5 h-5"
+    >
+      <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v12m0 0l-4-4m4 4l4-4m-9 6.5h10.5a.75.75 0 00.75-.75V6.75A.75.75 0 0017.25 6H6.75a.75.75 0 00-.75.75v11.25c0 .414.336.75.75.75z" />
+    </svg>
+    Download CV
+  </a>
+</div>
 
             {/* Social Pills */}
             <motion.div

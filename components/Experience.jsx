@@ -58,7 +58,7 @@ export default function Experience() {
   }, [inView, controls]);
 
   return (
-    <motion.section
+    <motion.section id="experience"
       ref={ref}
       style={{ backgroundColor: '#ede9fe' }} // fixed light purple bg
       className="relative w-full min-h-screen py-20 px-4 text-black"
