@@ -8,7 +8,7 @@ const projects = [
   {
     title: 'Movie Finder App',
     description: 'A sleek React-based web app that allows users to search and explore movies using an OMDB movie database API. Features real-time search suggestions, detailed movie info, poster previews, and responsive design.',
-    image: '',
+    image: '/moviefinder.png',
     tech: ['React', 'API Integration', 'CSS'],
     github: 'https://github.com/Apoorva-Pant/Movie-Finder-App',
     live: 'https://apoorva-pant.github.io/Movie-Finder-App/',
@@ -16,7 +16,7 @@ const projects = [
   {
     title: 'Marugarh Website',
     description: 'A beautiful heritage-themed restaurant website inspired by the royal city of Jodhpur. Made using just basic HTML and CSS, this was an important porject as it helped me land a freelance job in a Digital Marketing enterprise. Fully responsive with a modern parallax hero section and elegant menu layouts.',
-    image: '',
+    image: '/marugarh.png',
     tech: ['React', 'Node.js', 'Stripe'],
     github: 'https://github.com/Apoorva-Pant/marugarh-website',
     live: 'https://apoorva-pant.github.io/marugarh-website/',
@@ -24,7 +24,7 @@ const projects = [
   {
     title: 'Weather App',
     description: 'A minimalist weather forecasting app that fetches and displays real-time weather data for any city using a third-party weather API. Includes temperature, condition icons, 7-day forecasts, and 3-hour forecast',
-    image: '',
+    image: '/weatherapp.png',
     tech: ['React', 'javaScript', 'OpenWeatherMap API', 'CSS'],
     github: 'https://github.com/Apoorva-Pant/weather-app',
     live: 'https://mausamkijaankari.netlify.app/',
@@ -32,7 +32,7 @@ const projects = [
   {
     title: 'QR Menu App',
     description: 'A responsive restaurant menu web app where users can browse categorized items with filters and an added cart section. Designed for cafe clients, making it easy to update items and prices dynamically.',
-    image: '',
+    image: '/qrmenu.png',
     tech: ['React', 'JavaScript', 'Next.js', 'Css'],
     github: 'https://github.com/Apoorva-Pant/qr-menu-app',
     live: 'https://scannedmenu-app.netlify.app/',
@@ -40,7 +40,7 @@ const projects = [
   {
     title: 'My Old Portfolio',
     description: "Designed using simple languages, this was my portfolio when I wasn't fimiliar with technologies like TailwindCSS, Next.js or Framer motion.",
-    image: '',
+    image: '/oldportfolio.png',
     tech: ['HTML', 'CSS', 'JavaScript'],
     github: 'https://github.com/Apoorva-Pant/Portfolio',
     live: 'https://apoorva-pant.github.io/Portfolio/',
@@ -48,7 +48,7 @@ const projects = [
   {
     title: 'My New Portfolio',
     description: 'This is my interactive personal portfolio, a modern web experience built using Next.js 14, React 19, Tailwind CSS, Framer Motion, and DaisyUI. This site showcases my projects, skills, certifications, experience, and contact information — all wrapped in smooth scroll-based animations and responsive design.',
-    image: '',
+    image: '/newportfolio.png',
     tech: ['React', 'Socket.io', 'Express'],
     github: '#',
     live: '#',
@@ -83,7 +83,7 @@ export default function Projects() {
   const inView = useInView(sectionRef, { amount: 0.4 });
   const { scrollYProgress } = useScroll();
 
-  const bgColor = useTransform(scrollYProgress, [0.65, 0.7], [
+  const bgColor = useTransform(scrollYProgress, [0.57, 0.61], [
     'rgba(224, 242, 254, 1)', // light blue from Certifications
     'rgba(237, 233, 254, 1)', // light purple
   ]);
