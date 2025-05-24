@@ -49,9 +49,9 @@ const projects = [
     title: 'My New Portfolio',
     description: 'This is my interactive personal portfolio, a modern web experience built using Next.js 14, React 19, Tailwind CSS, Framer Motion, and DaisyUI. This site showcases my projects, skills, certifications, experience, and contact information — all wrapped in smooth scroll-based animations and responsive design.',
     image: '/newportfolio.png',
-    tech: ['React', 'Socket.io', 'Express'],
-    github: '#',
-    live: '#',
+    tech: ['React', 'JavaScript', 'Next.js', 'Twilwind CSS', 'Framer Motion'],
+    github: 'https://github.com/Apoorva-Pant/magical-portfolio',
+    live: 'https://apoorvapant-portfolio.netlify.app/',
   },
 ];
 
