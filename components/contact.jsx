@@ -20,19 +20,15 @@ const contactDetails = [
 const socials = [
   {
     label: 'GitHub',
-    href: 'https://github.com/yourusername',
+    href: 'https://github.com/Apoorva-Pant',
     color: 'bg-gray-800 text-white',
   },
   {
     label: 'LinkedIn',
-    href: 'https://linkedin.com/in/yourprofile',
+    href: 'https://www.linkedin.com/in/apoorva-pant-94457b229/',
     color: 'bg-blue-600 text-white',
   },
-  {
-    label: 'Twitter',
-    href: 'https://twitter.com/yourhandle',
-    color: 'bg-sky-400 text-white',
-  },
+  
 ];
 
 export default function Contact() {

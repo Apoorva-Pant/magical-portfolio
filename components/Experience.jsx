@@ -18,9 +18,9 @@ const experiences = [
     tech: ['HTML', 'CSS', 'JavaScript'],
   },
   {
-    role: 'Freelance Developer',
-    company: 'MarketingMinds Digital',
-    duration: 'Jun 2024 – Present',
+    role: 'Junior Front-end Developer',
+    company: 'The Content Creators',
+    duration: 'Jun 2024 – May 2025',
     description: 'A digital marketing agency creating custom web solutions for local businesses.',
     work: [
       'Built websites for cafes, added Instagram embeds and WhatsApp chat',
