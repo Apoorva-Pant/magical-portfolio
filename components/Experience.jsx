@@ -8,26 +8,40 @@ const experiences = [
   {
     role: 'Intern',
     company: 'Planning Lush Pvt Ltd',
-    duration: 'Jan 2024 – Jun 2024',
+    duration: 'July 2023 – Dec 2023',
     description: 'An event management company focused on tech-enabled planning solutions.',
     work: [
-      'Built event landing pages using HTML, CSS, JS',
-      'Improved mobile UI and integrated RSVP forms',
-      'Optimized website speed and SEO using Lighthouse audits',
+      'Built clean landing pages using HTML, CSS and JavaScript',
+      'Added functional RSVP and contact forms',
+      'Practiced proper content structure to boost SEO and load speeds',
     ],
     tech: ['HTML', 'CSS', 'JavaScript'],
   },
   {
     role: 'Junior Front-end Developer',
     company: 'The Content Creators',
-    duration: 'Jun 2024 – May 2025',
+    duration: 'Jan 2024 – May 2024',
     description: 'A digital marketing agency creating custom web solutions for local businesses.',
     work: [
+      'Worked as a core part of the in-house Dev Team',
       'Built websites for cafes, added Instagram embeds and WhatsApp chat',
       'Worked in a cross-functional team under supervision',
       'Implemented responsive designs, sliders, reservation forms',
     ],
     tech: ['Tailwind CSS', 'Next.js', 'Framer Motion', 'JavaScript'],
+  },
+  {
+    role: 'Front-end Developer',
+    company: 'Efficacy Media Co.',
+    duration: 'Jun 2024 – Jun 2025',
+    description: 'An advertising service agency that focuses on developing internet presence for their clients.',
+    work: [
+      'Operated as a sole web developer, owning the entire website lifecycle',
+      'Customized themes, twearked templates and wrote custom CSS on WordPress for branding consistancy',
+      'Ensured fast loading adn responsive design across all browsers',
+      'Sloved layout issues, plug-in conflicts and managed performance tweaks',
+    ],
+    tech: [ 'WordPress','Tailwind CSS', 'Next.js'],
   },
 ];
 
